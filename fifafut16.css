@@ -8,6 +8,19 @@ li {
   margin: 0px;
   padding: 0px;
 }
+
+.header-1 ul {
+  margin-bottom: 0px;
+  padding: 0px;
+}
+.header-2 ul {
+  margin-bottom: 0px;
+  padding-top: 30px;
+}
+.header-3 ul {
+  margin-bottom: 0px;
+  padding-top: 15px;
+}
 nav {
   margin: 0px;
   padding: 0px;
@@ -36,10 +49,9 @@ ul {
   display: inline;
   float: left;
   padding-right: 30px;
-  padding-top: 10px;
+  padding-top: 7px;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 12px;
 }
 .header-1 li:first-child {
   padding-top: 0px;
@@ -50,18 +62,18 @@ ul {
 }
 .header-1 li:nth-child(7) {
   float:right;
-  padding: 8px 20px 8px 20px;
+  padding: 6px 20px 6px 20px;
   background-color: #666666;
   border-left: 1px solid #eaeaea;
 }
 .header-1 li:nth-child(8) {
   float:right;
   background-color: #666666;
-  padding: 8px 20px 8px 20px;
+  padding: 6px 20px 6px 20px;
 }
 .header-1 li:nth-child(9) {
   float:right;
-  padding-top: 5px;
+  padding-top: 7px;
 }
 .header-1 li a {
   text-decoration: none;
@@ -77,22 +89,25 @@ span {
   display: inline;
   text-transform: uppercase;
   margin-right: 30px;
+
 }
 .header-2 li:first-child {
-  margin-top: 20px;
   padding-left: 90px;
 }
 .header-2 li a {
   text-decoration: none;
   color: white;
+  font-size: 16px;
   padding: 0 0 30px 0;
+
 }
 .header-2 li a:hover {
   color: #D2F311;
 }
 .header-2 li:nth-child(7) {
   background-color: #D2F311;
-  padding: 35px 15px 25px;
+  padding: 33px 15px 30px;
+  border: 1px solid black;
 }
 .header-2 span {
   color: black;
@@ -112,9 +127,10 @@ span {
 }
 .header-3 li a:hover {
   color: #D2F311;
+  background-color: #181818;
 }
 main{
-  width: 55%;
+  width: 75%;
   margin-left: 120px;
 }
 main img {
@@ -126,6 +142,7 @@ main p {
   color: #666666;
   margin-bottom: 40px;
   margin-left: 40px;
+  font-size: 1.6rem;
 }
 main h2 {
   border-bottom: 3px solid #F2CB05;
@@ -133,8 +150,9 @@ main h2 {
   font-weight: 500;
   margin-top: 50px;
   margin-bottom: 40px;
-  width: 40%;
+  width: 55%;
   text-align: right;
+  font-weight: 500;
 }
 .side {
   float:right;
