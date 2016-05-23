@@ -52,6 +52,7 @@ ul {
   padding-top: 7px;
   text-transform: uppercase;
   font-weight: 600;
+  font-size: 12px;
 }
 .header-1 li:first-child {
   padding-top: 0px;
@@ -62,14 +63,14 @@ ul {
 }
 .header-1 li:nth-child(7) {
   float:right;
-  padding: 6px 20px 4px 20px;
+  padding: 6px 20px 7px 20px;
   background-color: #666666;
   border-left: 1px solid #eaeaea;
 }
 .header-1 li:nth-child(8) {
   float:right;
   background-color: #666666;
-  padding: 6px 20px 4px 20px;
+  padding: 6px 20px 7px 20px;
 }
 .header-1 li:nth-child(9) {
   float:right;
@@ -107,7 +108,7 @@ ul {
 }
 .header-2 li:nth-child(7) {
   background-color: #D2F311;
-  padding: 33px 15px 30px;
+  padding: 32px 15px 30px;
   border: 1px solid black;
 }
 .header-2 span {
@@ -172,6 +173,9 @@ main .row .col-md-4 {
   margin-top: 225px;
   padding-left: 0px;
 }
+section ul {
+  margin-left: 110px;
+}
 section li {
   display: inline;
   text-transform: uppercase;
@@ -184,16 +188,11 @@ section li a {
     color: #666666;
     margin: 0px;
 }
-section li a span {
+section a:hover, .active {
   color: #F2BF11;
   background-color: #181818;
   margin: 0px;
   padding: 20px;
-  margin-left: 85px;
-}
-section li a:hover {
-  color: #F2BF11;
-  background-color: #181818;
   text-decoration: none;
 }
 section img {
