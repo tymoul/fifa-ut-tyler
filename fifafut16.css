@@ -133,7 +133,7 @@ ul {
 main img {
   width: 680px;
   height: 380px;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
 }
 main p {
   color: #666666;
@@ -160,9 +160,10 @@ main h3 {
   text-transform: uppercase;
   margin-top: 0px;
 }
-main h5 {
+main h4 {
   text-transform: uppercase;
   padding-bottom: 0px;
+  font-size: 15px;
 }
 main .row .col-md-8 {
   padding-left: 120px;
@@ -194,4 +195,25 @@ section li a:hover {
   color: #F2BF11;
   background-color: #181818;
   text-decoration: none;
+}
+section img {
+  height:185px;
+  width: 330px;
+  margin-top: 40px;
+}
+section .row {
+  margin: 0px;
+  padding: 20px;
+  margin-left: 85px;
+}
+section .row .col-md-4 {
+  padding: 0px;
+  margin: 0px;
+  width: 350px;
+}
+section h3 {
+  text-align: center;
+}
+section .row a {
+  padding-left: 65px;
 }
