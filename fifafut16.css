@@ -62,14 +62,14 @@ ul {
 }
 .header-1 li:nth-child(7) {
   float:right;
-  padding: 6px 20px 6px 20px;
+  padding: 6px 20px 4px 20px;
   background-color: #666666;
   border-left: 1px solid #eaeaea;
 }
 .header-1 li:nth-child(8) {
   float:right;
   background-color: #666666;
-  padding: 6px 20px 6px 20px;
+  padding: 6px 20px 4px 20px;
 }
 .header-1 li:nth-child(9) {
   float:right;
@@ -82,8 +82,9 @@ ul {
 .header-1 li a:hover {
   color: #6190BE;
 }
-span {
+.header-1 span {
   color: white;
+  font-size: 12px;
 }
 .header-2 li {
   display: inline;
@@ -129,10 +130,6 @@ span {
   color: #D2F311;
   background-color: #181818;
 }
-main{
-  width: 75%;
-  margin-left: 120px;
-}
 main img {
   width: 680px;
   height: 380px;
@@ -154,23 +151,25 @@ main h2 {
   text-align: right;
   font-weight: 500;
 }
-.side {
-  float:right;
-  width: 27%
-}
-.side a {
+main a {
   color:#2B98BC;
   font-size: 15px;
   text-decoration: none;
 }
-.side h3 {
+main h3 {
   text-transform: uppercase;
+  margin-top: 0px;
 }
-.side h5 {
+main h5 {
   text-transform: uppercase;
+  padding-bottom: 0px;
 }
-.side p {
-  color: #666666;
+main .row .col-md-8 {
+  padding-left: 120px;
+}
+main .row .col-md-4 {
+  margin-top: 225px;
+  padding-left: 0px;
 }
 section li {
   display: inline;
@@ -187,11 +186,12 @@ section li a {
 section li a span {
   color: #F2BF11;
   background-color: #181818;
-  padding: 20px;
   margin: 0px;
+  padding: 20px;
+  margin-left: 85px;
 }
 section li a:hover {
   color: #F2BF11;
   background-color: #181818;
-  padding: 20px;
+  text-decoration: none;
 }
