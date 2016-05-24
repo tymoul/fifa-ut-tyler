@@ -42,24 +42,34 @@ ul {
   margin: 0px;
   padding: 0px;
 }
+.logo {
+    float: left;
+    margin-right: 20px;
+    padding-top: 4px;
+}
 .header-1 li {
   list-style: none;
-  display: inline;
-  padding-top: 7px;
+  float: left;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 12px;
 }
-.header-1 .nav-1-spacing a {
-  padding-right: 17px;
+.header-1 .nav-1-spacing a, .header-1 .nav-2-spacing a {
+  padding: 7px 15px;
+  display: block;
+  float: left;
 }
-.header-1 .logo {
+.header-1 .nav-1-spacing a:hover {
+    background: #fff;
+}
+.header-2 .logo {
   padding-top: 0px;
 }
 .grey-btn a {
   background-color: #666666;
-  padding: 6px 20px 7px 20px;
+  padding: 10px 20px 5px 20px;
   color: white !important;
+  display: inline-block;
 }
 .grey-btn a:hover {
   color: #eee !important;
@@ -236,7 +246,7 @@ footer img {
   display: inline;
   list-style: none;
 }
-.footerjr a, a:hover {
+.footerjr a, .footerjr a:hover {
   color: white;
   font-size: 11px;
   margin-right: 10px;
