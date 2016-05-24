@@ -214,11 +214,8 @@ section img {
   width: 330px;
   margin-top: 40px;
 }
-section h3 {
-  text-align: center;
-}
-section .row a {
-  padding: 30px;
+section h3, section .row a {
+    margin-left: 30px;
 }
 section .row a:hover {
   color:#2B98BC;
@@ -276,4 +273,8 @@ footer img {
 .mid-nav {
     border-bottom: 1px solid #eaeaea;
     min-height: 39px;
+}
+.teams .col-md-4 {
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 20px;
 }
