@@ -19,7 +19,6 @@ li {
 }
 .header-3 ul {
   margin-bottom: 0px;
-  padding-top: 15px;
 }
 nav {
   margin: 0px;
@@ -36,7 +35,6 @@ nav {
 }
 .header-3 {
   background-color: #232323;
-  height: 50px;
 }
 ul {
   margin: 0px;
@@ -119,14 +117,14 @@ ul {
   text-align: center;
 }
 .header-3 li {
-  display: inline;
   text-transform: uppercase;
-  margin-top: 10px;
-  margin-right: 20px;
+  display: inline-block;
 }
 .header-3 li a {
   color: #9DAAA5;
   text-decoration: none;
+  display: block;
+  padding: 16px 13px;
 }
 .header-3 li a:hover {
   color: #D2F311;
