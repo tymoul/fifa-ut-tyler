@@ -278,3 +278,10 @@ footer img {
     border-bottom: 1px solid #eaeaea;
     padding-bottom: 20px;
 }
+.ea-logo {
+    color: #999;
+}
+.ea-logo img, .ea-logo span {
+    display: inline-block;
+    padding-right: 8px;
+}
