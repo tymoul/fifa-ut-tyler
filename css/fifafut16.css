@@ -125,10 +125,20 @@ ul {
   text-decoration: none;
   display: block;
   padding: 16px 13px;
+  position: relative;
 }
-.header-3 li a:hover {
+.header-3 li a:hover, .header-3 .active a {
   color: #D2F311;
   background-color: #181818;
+}
+.header-3 .active span {
+    background: url(../images/nav-arrow-black.png) no-repeat;
+    width: 20px;
+    height: 11px;
+    display: block;
+    position: absolute;
+    bottom: -11px;
+    left: 35%;
 }
 .focus {
   margin-left: auto;
@@ -187,7 +197,7 @@ section li a {
     color: #666666;
     margin: 0px;
 }
-section a:hover, .active {
+section a:hover, section .active {
   color: #F2BF11;
   background-color: #181818;
   margin: 0px;
