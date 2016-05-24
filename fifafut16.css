@@ -235,9 +235,12 @@ footer img {
 .footerjr li {
   display: inline;
   list-style: none;
+}
+.footerjr a, a:hover {
   color: white;
   font-size: 11px;
   margin-right: 10px;
+  text-decoration: none;
 }
 .footerjr img {
   margin-bottom: 20px;
