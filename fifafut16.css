@@ -218,3 +218,32 @@ footer li {
 footer h5 {
   color: white;
 }
+footer a {
+  color: #9DAAA5;
+  font-size: 12px;
+}
+footer a:hover {
+  color: #D2F311;
+  text-decoration: none;
+}
+footer img {
+  margin-bottom: 40px;
+}
+.footerjr {
+  background-color: #444444;
+}
+.footerjr li {
+  display: inline;
+  list-style: none;
+  color: white;
+  font-size: 11px;
+  margin-right: 10px;
+}
+.footerjr img {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.footerjr ul {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
