@@ -190,7 +190,8 @@ main h4 {
   margin-top: 220px;
 }
 section li {
-  display: inline;
+  display: block;
+  float: left;
   text-transform: uppercase;
   font-size: 14px;
   margin: 0px;
@@ -271,4 +272,8 @@ footer img {
 .footerjr ul {
   margin-bottom: 20px;
   margin-top: 20px;
+}
+.mid-nav {
+    border-bottom: 1px solid #eaeaea;
+    min-height: 39px;
 }
