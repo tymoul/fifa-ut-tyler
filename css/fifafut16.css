@@ -563,6 +563,9 @@ footer img {
   .teams  a {
     font-size: 12px;
   }
+  section {
+    text-align: center;
+  }
   section li a {
     text-decoration: none;
     padding: 10px;
@@ -574,6 +577,15 @@ footer img {
     max-width: 85%;
     margin-top: 40px;
   }
+  footer img {
+    margin-bottom: 40px;
+    max-width: 100%;
+  }
+  .footerjr img {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    max-width: 100%;
+    max-height: 100%;
 
-
+  }
 }
