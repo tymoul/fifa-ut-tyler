@@ -221,7 +221,7 @@ section .row a:hover {
   color:#2B98BC;
   background-color: transparent;
   text-decoration: underline;
-  padding: 30px;
+  padding: 0px;
 }
 footer {
   background-color: #181818;
@@ -293,9 +293,45 @@ footer img {
 
 
 @media screen and (max-width : 1024px) {
+  .header-1 li {
+    list-style: none;
+    float: none;
+  }
+  .header-1 .nav-1-spacing a, .header-1 .nav-2-spacing a {
+    padding: 7px 15px;
+    display: block;
+    float: none;
+  }
+  .header-1 .nav-1-spacing a:hover {
+    background: #fff;
+  }
+  .grey-btn a {
+    background-color: #666666;
+    padding: 10px 20px 5px 20px;
+    color: white !important;
+    display: inline-block;
+  }
+  .grey-btn a:hover {
+    color: #eee !important;
+  }
+  .header-1 .grey-btn.last {
+    margin-left: 0px;
+  }
+  .header-1 li:first-child {
+    margin-right: 0px;
+  }
+  .header-1 li a {
+    color: #232323;
+  }
+  .header-1 li a:hover {
+    color: #6190BE;
+  }
+  .header-1 span {
+    color: white;
+  }
   .header-2 ul {
     margin-bottom: 0px;
-    padding-top: 30px;
+    padding-top: 20px;
   }
   .header-2 {
     background-color: #181818;
@@ -304,7 +340,6 @@ footer img {
   }
   .header-2 li {
     display: block;
-    text-transform: uppercase;
     width: 35%;
     margin-bottom: 12px;
 
@@ -385,6 +420,12 @@ footer img {
     min-height: 39px;
     margin-top: 50px;
   }
+  section li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #666666;
+    margin: 0px;
+  }
   section img {
     height: 100%;
     max-width: 100%;
@@ -398,7 +439,43 @@ footer img {
 
 
 @media screen and (max-width : 760px) {
-  .header-3 .active span {
+
+  .header-1 li {
+    list-style: none;
+    float: none;
+  }
+  .header-1 .nav-1-spacing a, .header-1 .nav-2-spacing a {
+    padding: 7px 15px;
+    display: block;
+    float: none;
+  }
+  .header-1 .nav-1-spacing a:hover {
+    background: #fff;
+  }
+  .grey-btn a {
+    background-color: #666666;
+    padding: 10px 20px 5px 20px;
+    color: white !important;
+    display: inline-block;
+  }
+  .grey-btn a:hover {
+    color: #eee !important;
+  }
+  .header-1 .grey-btn.last {
+    margin-left: 0px;
+  }
+  .header-1 li:first-child {
+    margin-right: 0px;
+  }
+  .header-1 li a {
+    color: #232323;
+  }
+  .header-1 li a:hover {
+    color: #6190BE;
+  }
+  .header-1 span {
+    color: white;
+  }.header-3 .active span {
     display: none;
   }
   .header-3 {
@@ -486,8 +563,11 @@ footer img {
   .teams  a {
     font-size: 12px;
   }
-  section {
-    text-align: center;
+  section li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #666666;
+    margin: 0px;
   }
   section img {
     max-height:85%;
