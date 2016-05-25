@@ -8,7 +8,9 @@ li {
   margin: 0px;
   padding: 0px;
 }
-
+.icon-hamburger {
+    display: none;
+}
 .header-1 ul {
   margin-bottom: 0px;
   padding: 0px;
@@ -210,9 +212,9 @@ section a:hover, section .active {
   text-decoration: none;
 }
 section img {
-  height:185px;
   width: 330px;
   margin-top: 40px;
+  max-width: 100%;
 }
 section h3, section .row a {
   margin-left: 30px;
@@ -292,7 +294,34 @@ footer img {
 
 
 
-@media screen and (max-width : 1024px) {
+@media screen and (max-width : 992px) {
+  .nav-show-hide {
+      display: none;
+  }
+  .icon-hamburger {
+      float: right;
+      display: block;
+      margin-top: 5px;
+  }
+  .header-1 .icon-hamburger em {
+      color: #000;
+      font-size: 16px;
+  }
+  .nav-show-hide::before {
+      content: '';
+      clear: both;
+      display: block;
+  }
+  .nav-2-spacing, .nav-1-spacing {
+      float: none !important;
+  }
+  .logo {
+      float: left;
+      display: block;
+  }
+  .focus {
+      width: 90%;
+  }
   .header-1 li {
     list-style: none;
     float: none;
@@ -373,7 +402,7 @@ footer img {
   }
   .header-3 li {
     display: block;
-    width: 25%;
+    width: 100%;
   }
   .header-3 li a {
     display: block;
@@ -425,6 +454,10 @@ footer img {
     padding: 10px;
     color: #666666;
     margin: 0px;
+  }
+  section li a:hover, section li a.active {
+      padding: 10px;
+      margin: 0;
   }
   section img {
     height: 100%;
@@ -570,11 +603,14 @@ footer img {
   section {
     text-align: center;
   }
+  section li a:hover, section li a.active {
+      padding: 10px;
+      margin: 0;
+  }
+
   section li a {
-    text-decoration: none;
-    padding: 10px;
-    color: #666666;
-    margin: 0px;
+    display: block;
+    float: left;
   }
   section img {
     max-height:85%;
